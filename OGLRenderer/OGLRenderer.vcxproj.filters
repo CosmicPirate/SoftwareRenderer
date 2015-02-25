@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\SoftwareRenderer\Camera.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SoftwareRenderer\ObjParser.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SoftwareRenderer\Texture.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInput.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SoftwareRenderer\Camera.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SoftwareRenderer\Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SoftwareRenderer\ObjParser.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SoftwareRenderer\Texture.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInput.h" />
+    <ClInclude Include="Globals.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Model">
+      <UniqueIdentifier>{88f9fdb5-ed06-48af-8e6d-f2c534ad986e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
